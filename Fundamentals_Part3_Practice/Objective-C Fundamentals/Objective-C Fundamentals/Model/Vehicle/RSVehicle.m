@@ -27,7 +27,8 @@
 
 - (void)toggleEngine:(BOOL)start {
     
-    
+    self.running = start;
+    NSLog(self.running ? @"Engine works" : @"Engine is stopped");
     
 }
 
