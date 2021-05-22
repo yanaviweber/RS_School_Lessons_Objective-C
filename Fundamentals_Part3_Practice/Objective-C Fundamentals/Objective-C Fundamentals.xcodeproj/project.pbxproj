@@ -10,6 +10,7 @@
 		7318C8362659B033003D696D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8352659B033003D696D /* main.m */; };
 		7318C8412659B1E3003D696D /* RSPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8402659B1E3003D696D /* RSPassenger.m */; };
 		7318C8462659C59C003D696D /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8452659C59C003D696D /* RSVehicle.m */; };
+		7318C84D2659D185003D696D /* RSCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C84C2659D185003D696D /* RSCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7318C8402659B1E3003D696D /* RSPassenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPassenger.m; sourceTree = "<group>"; };
 		7318C8442659C59C003D696D /* RSVehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSVehicle.h; sourceTree = "<group>"; };
 		7318C8452659C59C003D696D /* RSVehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSVehicle.m; sourceTree = "<group>"; };
+		7318C84B2659D185003D696D /* RSCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCar.h; sourceTree = "<group>"; };
+		7318C84C2659D185003D696D /* RSCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 		7318C83D2659B17C003D696D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7318C84A2659D14C003D696D /* Car */,
 				7318C8432659C563003D696D /* Vehicle */,
 				7318C83E2659B18F003D696D /* Passenger */,
 			);
@@ -94,6 +98,15 @@
 				7318C8452659C59C003D696D /* RSVehicle.m */,
 			);
 			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		7318C84A2659D14C003D696D /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				7318C84B2659D185003D696D /* RSCar.h */,
+				7318C84C2659D185003D696D /* RSCar.m */,
+			);
+			path = Car;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7318C8362659B033003D696D /* main.m in Sources */,
+				7318C84D2659D185003D696D /* RSCar.m in Sources */,
 				7318C8412659B1E3003D696D /* RSPassenger.m in Sources */,
 				7318C8462659C59C003D696D /* RSVehicle.m in Sources */,
 			);
