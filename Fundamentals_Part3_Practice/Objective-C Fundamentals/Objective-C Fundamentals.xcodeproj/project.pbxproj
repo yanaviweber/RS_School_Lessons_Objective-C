@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7318C8362659B033003D696D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8352659B033003D696D /* main.m */; };
 		7318C8412659B1E3003D696D /* RSPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8402659B1E3003D696D /* RSPassenger.m */; };
+		7318C8462659C59C003D696D /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8452659C59C003D696D /* RSVehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		7318C8352659B033003D696D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7318C83F2659B1E3003D696D /* RSPassenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPassenger.h; sourceTree = "<group>"; };
 		7318C8402659B1E3003D696D /* RSPassenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPassenger.m; sourceTree = "<group>"; };
+		7318C8442659C59C003D696D /* RSVehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSVehicle.h; sourceTree = "<group>"; };
+		7318C8452659C59C003D696D /* RSVehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSVehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		7318C83D2659B17C003D696D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7318C8432659C563003D696D /* Vehicle */,
 				7318C83E2659B18F003D696D /* Passenger */,
 			);
 			path = Model;
@@ -81,6 +85,15 @@
 				7318C8402659B1E3003D696D /* RSPassenger.m */,
 			);
 			path = Passenger;
+			sourceTree = "<group>";
+		};
+		7318C8432659C563003D696D /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				7318C8442659C59C003D696D /* RSVehicle.h */,
+				7318C8452659C59C003D696D /* RSVehicle.m */,
+			);
+			path = Vehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			files = (
 				7318C8362659B033003D696D /* main.m in Sources */,
 				7318C8412659B1E3003D696D /* RSPassenger.m in Sources */,
+				7318C8462659C59C003D696D /* RSVehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
