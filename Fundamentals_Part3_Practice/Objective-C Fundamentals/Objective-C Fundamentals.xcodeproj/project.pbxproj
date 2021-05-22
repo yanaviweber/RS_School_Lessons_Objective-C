@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7318C8362659B033003D696D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8352659B033003D696D /* main.m */; };
+		7318C8412659B1E3003D696D /* RSPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8402659B1E3003D696D /* RSPassenger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7318C8322659B033003D696D /* Objective-C Fundamentals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C Fundamentals"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7318C8352659B033003D696D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7318C83F2659B1E3003D696D /* RSPassenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPassenger.h; sourceTree = "<group>"; };
+		7318C8402659B1E3003D696D /* RSPassenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPassenger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		7318C8342659B033003D696D /* Objective-C Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				7318C83D2659B17C003D696D /* Model */,
 				7318C8352659B033003D696D /* main.m */,
 			);
 			path = "Objective-C Fundamentals";
+			sourceTree = "<group>";
+		};
+		7318C83D2659B17C003D696D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7318C83E2659B18F003D696D /* Passenger */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7318C83E2659B18F003D696D /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				7318C83F2659B1E3003D696D /* RSPassenger.h */,
+				7318C8402659B1E3003D696D /* RSPassenger.m */,
+			);
+			path = Passenger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7318C8362659B033003D696D /* main.m in Sources */,
+				7318C8412659B1E3003D696D /* RSPassenger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
