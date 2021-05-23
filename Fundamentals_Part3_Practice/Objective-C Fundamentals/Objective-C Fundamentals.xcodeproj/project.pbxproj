@@ -37,6 +37,7 @@
 		7318C84C2659D185003D696D /* RSCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCar.m; sourceTree = "<group>"; };
 		7318C8522659D3AF003D696D /* RSCarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCarPort.h; sourceTree = "<group>"; };
 		7318C8532659D3AF003D696D /* RSCarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCarPort.m; sourceTree = "<group>"; };
+		7318C8572659DA42003D696D /* RSEnterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSEnterable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +127,7 @@
 			children = (
 				7318C8522659D3AF003D696D /* RSCarPort.h */,
 				7318C8532659D3AF003D696D /* RSCarPort.m */,
+				7318C8572659DA42003D696D /* RSEnterable.h */,
 			);
 			path = CarPort;
 			sourceTree = "<group>";
