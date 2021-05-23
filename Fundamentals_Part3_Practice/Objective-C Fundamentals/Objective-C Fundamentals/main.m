@@ -6,11 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RSCarPort.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        RSCarPort *carPort = [RSCarPort new];
+        
+        RSPassenger *captain = [[RSPassenger alloc] initWithName:@"Mike"];
+        RSCar *mikeCar = [[RSCar alloc] initWithPassenger:captain];
+        
+        [carPort launchCar:mikeCar];
     }
     return 0;
 }
