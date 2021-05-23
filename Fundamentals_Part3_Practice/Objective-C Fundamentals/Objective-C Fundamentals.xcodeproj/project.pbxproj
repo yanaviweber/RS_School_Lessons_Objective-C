@@ -12,6 +12,7 @@
 		7318C8462659C59C003D696D /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8452659C59C003D696D /* RSVehicle.m */; };
 		7318C84D2659D185003D696D /* RSCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C84C2659D185003D696D /* RSCar.m */; };
 		7318C8542659D3AF003D696D /* RSCarPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8532659D3AF003D696D /* RSCarPort.m */; };
+		7318C85C2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C85B2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		7318C8522659D3AF003D696D /* RSCarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCarPort.h; sourceTree = "<group>"; };
 		7318C8532659D3AF003D696D /* RSCarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCarPort.m; sourceTree = "<group>"; };
 		7318C8572659DA42003D696D /* RSEnterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSEnterable.h; sourceTree = "<group>"; };
+		7318C85A2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSPassenger+RSPassenger_RandomGeneratable.h"; sourceTree = "<group>"; };
+		7318C85B2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RSPassenger+RSPassenger_RandomGeneratable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		7318C83E2659B18F003D696D /* Passenger */ = {
 			isa = PBXGroup;
 			children = (
+				7318C8592659E400003D696D /* Category */,
 				7318C83F2659B1E3003D696D /* RSPassenger.h */,
 				7318C8402659B1E3003D696D /* RSPassenger.m */,
 			);
@@ -130,6 +134,15 @@
 				7318C8572659DA42003D696D /* RSEnterable.h */,
 			);
 			path = CarPort;
+			sourceTree = "<group>";
+		};
+		7318C8592659E400003D696D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7318C85A2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.h */,
+				7318C85B2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +204,7 @@
 				7318C8542659D3AF003D696D /* RSCarPort.m in Sources */,
 				7318C8362659B033003D696D /* main.m in Sources */,
 				7318C84D2659D185003D696D /* RSCar.m in Sources */,
+				7318C85C2659E477003D696D /* RSPassenger+RSPassenger_RandomGeneratable.m in Sources */,
 				7318C8412659B1E3003D696D /* RSPassenger.m in Sources */,
 				7318C8462659C59C003D696D /* RSVehicle.m in Sources */,
 			);
