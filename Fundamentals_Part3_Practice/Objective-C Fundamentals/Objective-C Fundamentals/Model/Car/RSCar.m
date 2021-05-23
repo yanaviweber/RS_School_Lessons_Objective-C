@@ -9,6 +9,8 @@
 
 @implementation RSCar
 
-
+- (void)move {
+    NSLog(@"I'm driving, the driver is %@", self.captain.name);
+}
 
 @end
