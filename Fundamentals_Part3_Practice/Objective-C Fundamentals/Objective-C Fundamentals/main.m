@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
         
         [carPort enter:captain];
         [carPort enter:mikeCar];
+        [captain sayHello];
     }
     return 0;
 }

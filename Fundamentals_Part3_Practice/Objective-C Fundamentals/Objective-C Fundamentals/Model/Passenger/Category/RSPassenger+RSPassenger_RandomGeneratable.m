@@ -9,4 +9,8 @@
 
 @implementation RSPassenger (RSPassenger_RandomGeneratable)
 
+- (void)sayHello {
+    NSLog(@"WWwoooww");
+}
+
 @end
