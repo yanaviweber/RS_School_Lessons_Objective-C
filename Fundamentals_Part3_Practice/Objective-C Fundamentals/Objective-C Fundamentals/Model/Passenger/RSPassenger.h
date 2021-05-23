@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RSEnterable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RSPassenger : NSObject
+@interface RSPassenger : NSObject <RSEnterable>
 
 @property (nonatomic, copy) NSString *name;
 

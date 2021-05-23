@@ -9,11 +9,14 @@
 
 @implementation RSPassenger
 
+@synthesize identifier = _identifier;
+
 - (instancetype)initWithName:(NSString *)name{
     self = [super init];
     
     if (self){
         _name = name;
+       _identifier = [[NSUUID UUID] UUIDString];
     }
     return  self;
 }

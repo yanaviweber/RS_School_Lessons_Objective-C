@@ -16,6 +16,9 @@ int main(int argc, const char * argv[]) {
         RSCar *mikeCar = [[RSCar alloc] initWithPassenger:captain];
         
         [carPort launchCar:mikeCar];
+        
+        [carPort enter:captain];
+        [carPort enter:mikeCar];
     }
     return 0;
 }

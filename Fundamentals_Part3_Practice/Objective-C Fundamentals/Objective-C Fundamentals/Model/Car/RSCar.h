@@ -6,10 +6,11 @@
 //
 
 #import "RSVehicle.h"
+#import "RSEnterable.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RSCar : RSVehicle
+@interface RSCar : RSVehicle <RSEnterable>
 
 - (void)move;
 
