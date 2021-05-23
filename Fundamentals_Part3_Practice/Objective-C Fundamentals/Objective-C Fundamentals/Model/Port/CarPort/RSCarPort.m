@@ -28,6 +28,10 @@
     [self.trackPool addObject:car];
     [car toggleEngine:YES];
     [car move];
+    
+    for (RSCar *obj in self.trackPool){
+        NSLog(@"%p - %@", obj, obj.captain.name);
+    }
 }
 
 @end
