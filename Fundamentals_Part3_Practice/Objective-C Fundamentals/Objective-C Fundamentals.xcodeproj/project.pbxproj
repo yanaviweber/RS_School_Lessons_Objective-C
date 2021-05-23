@@ -11,6 +11,7 @@
 		7318C8412659B1E3003D696D /* RSPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8402659B1E3003D696D /* RSPassenger.m */; };
 		7318C8462659C59C003D696D /* RSVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8452659C59C003D696D /* RSVehicle.m */; };
 		7318C84D2659D185003D696D /* RSCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C84C2659D185003D696D /* RSCar.m */; };
+		7318C8542659D3AF003D696D /* RSCarPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318C8532659D3AF003D696D /* RSCarPort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7318C8452659C59C003D696D /* RSVehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSVehicle.m; sourceTree = "<group>"; };
 		7318C84B2659D185003D696D /* RSCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCar.h; sourceTree = "<group>"; };
 		7318C84C2659D185003D696D /* RSCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCar.m; sourceTree = "<group>"; };
+		7318C8522659D3AF003D696D /* RSCarPort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSCarPort.h; sourceTree = "<group>"; };
+		7318C8532659D3AF003D696D /* RSCarPort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCarPort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		7318C83D2659B17C003D696D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7318C8502659D361003D696D /* Port */,
 				7318C84A2659D14C003D696D /* Car */,
 				7318C8432659C563003D696D /* Vehicle */,
 				7318C83E2659B18F003D696D /* Passenger */,
@@ -107,6 +111,23 @@
 				7318C84C2659D185003D696D /* RSCar.m */,
 			);
 			path = Car;
+			sourceTree = "<group>";
+		};
+		7318C8502659D361003D696D /* Port */ = {
+			isa = PBXGroup;
+			children = (
+				7318C8512659D37A003D696D /* CarPort */,
+			);
+			path = Port;
+			sourceTree = "<group>";
+		};
+		7318C8512659D37A003D696D /* CarPort */ = {
+			isa = PBXGroup;
+			children = (
+				7318C8522659D3AF003D696D /* RSCarPort.h */,
+				7318C8532659D3AF003D696D /* RSCarPort.m */,
+			);
+			path = CarPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7318C8542659D3AF003D696D /* RSCarPort.m in Sources */,
 				7318C8362659B033003D696D /* main.m in Sources */,
 				7318C84D2659D185003D696D /* RSCar.m in Sources */,
 				7318C8412659B1E3003D696D /* RSPassenger.m in Sources */,
