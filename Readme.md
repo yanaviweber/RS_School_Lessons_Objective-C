@@ -41,14 +41,14 @@ When you would like to run C files, - this steps:
  2. `Open the folder of the application and double click of the file with extension .xcodeproj or .m(depends on the situation)`
  3. `Inside Xcode you have to click arrow icon "Run" on the top panel of Xcode`
 
-Other way to run program:
+##### Other way to run program:
 
 Commands in the terminal:
-1.`build`
-2.`run`
-3.`clean`
+1. `build`
+2. `run`
+3. `clean`
 
-[Running code which is of inside of the repo file and helps to this process automatically:] (https://github.com/ViJane-dev/RS_School_Lessons_Objective-C/commit/ff7decab895d8a16f59d632d0e355ad67eadff93)
+[Link of the running code which is of inside of the repo file and helps to this process automatically](https://github.com/ViJane-dev/RS_School_Lessons_Objective-C/commit/ff7decab895d8a16f59d632d0e355ad67eadff93)
 
 Content of the running file in the repo by the link posted above:
 
